@@ -1,0 +1,84 @@
+.pageWrap{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+}
+.topBgBox{
+  width: 100%;
+  height: 288px;
+  padding-top: 40px;
+}
+.fleckImage{
+  width: calc(100% - 4px);
+  height: 124px;
+  vertical-align: middle;
+}
+.boxWrap{
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.headerBox{
+  width: 344px;
+  height: 108px;
+  position: relative;
+  display: flex;
+  align-items: center;
+ .middleText{
+   padding-top: 20px;
+   margin-left: -5px;
+   position: relative;
+   z-index: 2;
+   .smallFont{
+     display: block;
+     margin-top: 4px;
+   }
+ }
+}
+.logoImage{
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  right: 8px;
+  bottom: 20px;
+  z-index: 1;
+}
+
+.middleBoxWrap{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 113px;
+  .middleFloatCardBox{
+    width: 344px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+  .CardItem{
+    flex: 1;
+    height: 139px;
+    margin-top: -15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .largeCard{
+    transform: scale(1.2);
+  }
+}
+.bottomBox{
+  flex: 1;
+  position: relative;
+  z-index: 0;
+
+}

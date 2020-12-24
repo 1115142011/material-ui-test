@@ -1,0 +1,20 @@
+.boxWrap{
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding-right: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.textBox{
+  flex: 1;
+  text-align: center;
+  padding-right: 8px;
+  max-width: 270px;
+}
+.rightBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

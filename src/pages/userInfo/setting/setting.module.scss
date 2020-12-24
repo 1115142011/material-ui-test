@@ -1,0 +1,53 @@
+
+/***entry***/
+.linkBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  padding: 10px 5px 10px 15px;
+  background: #ffffff;
+}
+.exitButtonWrap{
+  padding: 30px 15px;
+}
+/**** settingUserinformation******/
+.topBackgroundBox{
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .fleckImage{
+    width: 390px;
+    height: 100%;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    z-index: 0;
+    vertical-align: middle;
+  }
+}
+.remarkInputWrap{
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  padding: 8px 15px;
+}
+.submitRemarkWrap{
+  padding: 15px;
+  margin-top: 30px;
+}
+/** setting password***/
+.passwordInputBox{
+  margin-bottom: 1px;
+}
+.submitPasschange{
+  width: 100%;
+  padding: 15px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}

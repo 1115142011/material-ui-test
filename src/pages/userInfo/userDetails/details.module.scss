@@ -1,0 +1,50 @@
+.pageWrap{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.userInfobOX{
+  width: 100%;
+  height: 160px;
+  position: relative;
+  overflow: hidden;
+  .backgroundImage{
+    height: 160px;
+    width: 390px;
+    margin-left: -10px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+  }
+  .baseMsgBox{
+    width: 100%;
+    position: absolute;
+    top: 28px;
+    padding-left: 16px;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+  }
+  .scoreBox{
+    display: flex;
+    align-items: center;
+  }
+}
+.userRemark{
+  padding:13px 28px ;
+}
+.remarkContent{
+  margin-top: 15px;
+}
+.comment{
+ 
+ 
+  padding:0 28px 15px;
+}
+.scrollView{
+  flex: 1;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
